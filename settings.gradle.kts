@@ -22,6 +22,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "APPECO"
+rootProject.name = "APPECOLIM"
 include(":app")
- 

@@ -1,0 +1,13 @@
+<resources>
+    <item name="clasificacion_cantidad" type="id" />
+    <style name="Theme.APPECOLIM.Clasificacion" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">#05593D</item>
+        <item name="android:navigationBarColor">#060C09</item>
+        <item name="colorPrimary">#098B59</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+    <string name="clasificacion_preview">Clasificación · Vista previa</string>
+</resources>

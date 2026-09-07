@@ -1,3 +1,21 @@
 <resources>
-    <string name="app_name">APPECO</string>
+    <string name="app_name">APPECOLIM</string>
+    <string name="title_registro">REGISTRO DEL DIA</string>
+    <string name="title_historial">HISTORIAL</string>
+    <string name="title_reporte">REPORTE</string>
+    <string name="tab_hoy">HOY</string>
+    <string name="tab_historial">HISTORIAL</string>
+    <string name="tab_reporte">REPORTE</string>
+    <string name="btn_export_pdf">EXPORTAR PDF</string>
+    <string name="btn_export_csv">EXPORTAR CSV</string>
+    <string name="btn_editar">EDITAR</string>
+    <string name="filtro_fecha">FECHA ▼</string>
+    <string name="filtro_tipo">TIPO ▼</string>
+    <string name="desc_volver">Volver</string>
+    <string name="total_format">TOTAL: %1$s KG</string>
+    <string name="clasificacion">CLASIFICACIÓN</string>
+    <string name="registro_reportes">REGISTRO/REPORTES</string>
+    <string name="ecolim">ECOLIM</string>
+    <string name="mi_perfil">Mi Perfil</string>
+    <string name="cerrar_sesion">Cerrar Sesión</string>
 </resources>
