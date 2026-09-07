@@ -13,3 +13,20 @@
 .externalNativeBuild
 .cxx
 local.properties
+.idea/
+
+# Archivos locales y secretos
+.env
+.env.*
+local.properties
+node_modules/
+.idea/
+.gradle/
+.kotlin/
+build/
+.cxx/
+.externalNativeBuild/
+*.iml
+*.log
+*.jks
+*.keystore

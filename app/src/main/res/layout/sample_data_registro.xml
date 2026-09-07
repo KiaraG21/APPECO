@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!-- Item 1: El más temprano -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@color/card_gray"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:elevation="2dp">
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1.2" android:text="08:15 AM" android:textColor="@color/black" android:textStyle="bold" />
+        <View android:layout_width="1dp" android:layout_height="20dp" android:layout_marginHorizontal="4dp" android:background="@color/text_gray" />
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="3" android:gravity="center" android:text="Papel y cartón" android:textColor="@color/black" />
+        <View android:layout_width="1dp" android:layout_height="20dp" android:layout_marginHorizontal="4dp" android:background="@color/text_gray" />
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1.2" android:gravity="center" android:text="12.5 Kg" android:textColor="@color/black" />
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:orientation="vertical">
+            <ImageView android:layout_width="20dp" android:layout_height="20dp" android:src="@drawable/edit" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="EDITAR" android:textSize="7sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Item 2 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@color/card_gray"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:elevation="2dp">
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1.2" android:text="10:45 AM" android:textColor="@color/black" android:textStyle="bold" />
+        <View android:layout_width="1dp" android:layout_height="20dp" android:layout_marginHorizontal="4dp" android:background="@color/text_gray" />
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="3" android:gravity="center" android:text="Plástico" android:textColor="@color/black" />
+        <View android:layout_width="1dp" android:layout_height="20dp" android:layout_marginHorizontal="4dp" android:background="@color/text_gray" />
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1.2" android:gravity="center" android:text="5.0 Kg" android:textColor="@color/black" />
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:orientation="vertical">
+            <ImageView android:layout_width="20dp" android:layout_height="20dp" android:src="@drawable/edit" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="EDITAR" android:textSize="7sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Item 3 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@color/card_gray"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:elevation="2dp">
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1.2" android:text="01:20 PM" android:textColor="@color/black" android:textStyle="bold" />
+        <View android:layout_width="1dp" android:layout_height="20dp" android:layout_marginHorizontal="4dp" android:background="@color/text_gray" />
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="3" android:gravity="center" android:text="Material punzocortante" android:textColor="@color/black" />
+        <View android:layout_width="1dp" android:layout_height="20dp" android:layout_marginHorizontal="4dp" android:background="@color/text_gray" />
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1.2" android:gravity="center" android:text="2.5 Kg" android:textColor="@color/black" />
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:orientation="vertical">
+            <ImageView android:layout_width="20dp" android:layout_height="20dp" android:src="@drawable/edit" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="EDITAR" android:textSize="7sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Item 4: El más reciente -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@color/card_gray"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:elevation="2dp">
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1.2" android:text="04:55 PM" android:textColor="@color/black" android:textStyle="bold" />
+        <View android:layout_width="1dp" android:layout_height="20dp" android:layout_marginHorizontal="4dp" android:background="@color/text_gray" />
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="3" android:gravity="center" android:text="Pilas y baterías" android:textColor="@color/black" />
+        <View android:layout_width="1dp" android:layout_height="20dp" android:layout_marginHorizontal="4dp" android:background="@color/text_gray" />
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1.2" android:gravity="center" android:text="15.0 Kg" android:textColor="@color/black" />
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:orientation="vertical">
+            <ImageView android:layout_width="20dp" android:layout_height="20dp" android:src="@drawable/edit" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="EDITAR" android:textSize="7sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
